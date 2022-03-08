@@ -2,6 +2,30 @@
   "dependencies": {
     "@popperjs/core": "^2.11.2",
     "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0",
     "save": "^2.4.0"
-  }
+  },
+  "name": "food-festival-smoothie",
+  "description": "Challenge 19 of our bootcamp, where we learned how to create and use PWAs. The context was to make a current app run faster and better, even offline, in preparation for a food festival coming up that will have 4g coverage.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmlawton15/food-festival-smoothie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmlawton15/food-festival-smoothie/issues"
+  },
+  "homepage": "https://github.com/mmlawton15/food-festival-smoothie#readme"
 }
